@@ -1,0 +1,122 @@
+html {
+	background-color: white;
+}
+
+body {
+	margin: 0px;
+}
+
+.full-navbar {
+    text-align: center;
+    padding: 0px;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.logo-bar {
+    padding: 10px 0px;
+}
+
+.logo-bar-img {
+    width: 10%;
+    height: 10%;
+}
+
+.navbar {
+    text-align: center;
+    background-color: black;
+    padding: 15px 0px;
+    border: 2px solid red;
+    border-left: none;
+    border-right: none;
+}
+
+nav.navbar a {
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    color: white;
+    margin: 0px 3%;
+    font-size: 20px;
+}
+
+section {
+	background-color: rgba(255, 255, 255, 0.6);
+	min-height: 300px;
+	min-width: 500px;
+	margin: auto;
+	margin-top: 10px;
+	width: 80%;
+	border-radius: 100px;
+	padding-top: 0px;
+}
+
+h1 {
+	margin: 10px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+}
+
+.contactInfo {
+	font-size: 20px;
+	display: inline-block;
+}
+
+.pageIn {
+	border-bottom: 2px solid red;
+}
+
+h4 {
+	font-size: 30px;
+	text-align: center;
+}
+
+p4{
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.left {
+	display: block;
+	margin-left: auto;
+	margin-right: 50%;
+	width: 40%;
+	height: 225px;
+}
+
+.right {
+	display: block;
+	margin-left: 50%;
+	margin-right: auto;
+	width: 40%;
+	height: 225px;
+}
+
+.column {
+  float: left;
+  width: 43%;
+  padding: 50px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p {
+	font-size: 20px;
+}
+
+p1 {
+	font-size: 40px;
+}
